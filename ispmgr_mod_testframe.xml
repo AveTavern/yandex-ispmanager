@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mgrdata>
+    <mainmenu level="admin+">
+        <modernmenu>
+            <node name="my_group">
+                <node name="testframe" />
+            </node>
+        </modernmenu>
+    </mainmenu>
+
+    <handler name="testframe.sh" type="xml">
+        <func name="testframe" />
+    </handler>
