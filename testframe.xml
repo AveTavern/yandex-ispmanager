@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc lang="en" func="testframe" binary="/ispmgr">
+    <metadata name="testframe" type="form" mgr="ispmgr">
+        <form>
+            <field name="frame" fullwidth="yes">
+                <frame name="roundcubeframe" forcetheme="yes" fullpage="yes" keepalive="yes" />
+            </field>
+        </form>
+    </metadata>
+    <messages name="testframe" checked="6b49a92f5cc5153c76b78446d0d74eb4">
