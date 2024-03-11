@@ -15,8 +15,8 @@ response = requests.get(url)
 with open ('/var/www/yandex.py', 'w+') as file:
   file.write(response.text)
   file.close()
-print("Создан файл yandex.py в директории /var/www/")
+print("yandex.py file created in /var/www/")
     
 cmd = '/usr/local/mgr5/sbin/mgrctl -m ispmgr scheduler.edit active=on clicked_button=ok command=/var/www/yandex.py description=yandex_metrics sok=ok'
 subprocess.run([cmd], shell=True)
-print("Создана задача в cron")
+print("Cron task created")
