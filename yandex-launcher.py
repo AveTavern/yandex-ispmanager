@@ -10,7 +10,7 @@ subprocess.run([cmd], shell=True)
 cmd = 'pip'+' install'+' time'
 subprocess.run([cmd], shell=True)
 
-url  = 'https://raw.githubusercontent.com/AveTavern/yandex-ispmgr/main/yandex-ispmgr'
+url  = 'https://raw.githubusercontent.com/AveTavern/yandex-ispmanager/main/yandex-ispmgr.py'
 response = requests.get(url)
 with open ('/var/www/yandex.py', 'w+') as file:
   file.write(response.text)
